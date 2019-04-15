@@ -1,5 +1,74 @@
+.userImages{
+  margin:10px;
+
+}
+
+h2{font-size: 20px;
+  font-family:'Fjalla One', sans-serif;
+  color:rgb(10, 10, 10);
+  float: center; margin:23px;
+  
+}
+
+.styleNextagram{
+  font-family:Lobster, cursive;
+  font-size: 25px;
+}
+.Button{
+  
+  margin-left:45px;
+  width: 200px;
+}
+
+.bg-antique{
+  background-color: rgb(235, 231, 231);
+  margin-bottom: 20px;
+  
+ 
+}
+
+.homepage-container {
+  display: flex;
+
+}
+
+.profileimageContainer{
+ float:left;
+ /* width: 100%; */
+ height:500px;
+ margin-top: 20px;
+
+}
+
+
+
+
 .App {
   text-align: center;
+}
+
+.image{
+  border-radius: 500px;
+  height:120px;
+  width:120px;
+  margin-top: 30px;
+  border: white solid 5px;
+  align-items: center;
+}
+
+.userimage{
+  border-radius: 500px;
+  height:150px;
+  width:150px;
+  display:block;
+  margin-left: auto;
+  margin-right:auto; 
+
+}
+
+.username{
+text-align: center;
+
 }
 
 .App-logo {
@@ -21,6 +90,15 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.userProfileImageContainer{
+display:inline-block;
+width:200;
+height:150;
+margin:50px;
+
+
 }
 
 @keyframes App-logo-spin {
